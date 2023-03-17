@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         let dx = tapCoordinates.x - myView.center.x
         let dy = tapCoordinates.y - myView.center.y
         let distance = abs(dx + dy)
-        print(distance/8000)
+
         let rotatingTime = min(distance/8000, 0.6)
         let transitionTime = CFTimeInterval(3)
         
