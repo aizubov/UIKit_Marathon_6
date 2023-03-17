@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         springAnimation.stiffness = 100.0
         springAnimation.fromValue = myView.layer.position
         springAnimation.damping = 10
-        springAnimation.mass = min(distance/300, 0.6)
+        springAnimation.mass = min(distance/200, 0.7)
         springAnimation.toValue = tapCoordinates
         springAnimation.duration = transitionTime
         
